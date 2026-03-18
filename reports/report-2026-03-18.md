@@ -1,7 +1,7 @@
 # 🚀 Weekly PageSpeed Report
 
 **Date:** Wednesday, 18 March 2026  
-**Strategy:** desktop  
+**Strategy:** mobile  
 **Sites tested:** 10
 
 ---
