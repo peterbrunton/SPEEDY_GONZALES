@@ -30,7 +30,7 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: "20"
+          node-version: "24"
 
       - name: Run audit
         env:
@@ -44,4 +44,5 @@ jobs:
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add reports/
           git diff --cached --quiet && echo "No changes to commit" || git commit -m "chore: weekly PageSpeed report $(date -u +%Y-%m-%d)"
+          git pull --rebase
           git push
