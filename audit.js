@@ -106,7 +106,37 @@ function extractMetrics(data) {
       savings: a.details.overallSavingsMs,
     }));
 
-  return { scores, vitals, opportunities, fetchTime: data.lighthouseResult?.fetchTime };
+  const SEO_CHECKS = [
+    { id: "document-title",      label: "Title tag" },
+    { id: "meta-description",    label: "Meta description" },
+    { id: "canonical",           label: "Canonical tag" },
+    { id: "hreflang",            label: "hreflang" },
+    { id: "is-crawlable",        label: "Page is crawlable" },
+    { id: "robots-txt",          label: "robots.txt valid" },
+    { id: "crawlable-anchors",   label: "Crawlable links" },
+    { id: "link-text",           label: "Descriptive link text" },
+    { id: "tap-targets",         label: "Tap targets (mobile)" },
+    { id: "structured-data",     label: "Structured data" },
+  ];
+
+  const seoChecks = SEO_CHECKS.map(({ id, label }) => {
+    const audit = audits[id];
+    const mode = audit?.scoreDisplayMode;
+    const score = audit?.score;
+    let status;
+    if (!audit || mode === "notApplicable" || mode === "manual") {
+      status = "n/a";
+    } else if (score === 1) {
+      status = "pass";
+    } else if (score === 0) {
+      status = "fail";
+    } else {
+      status = "warn";
+    }
+    return { id, label, status, description: audit?.description };
+  });
+
+  return { scores, vitals, opportunities, seoChecks, fetchTime: data.lighthouseResult?.fetchTime };
 }
 
 // ── Build Markdown report ───────────────────────────────────────────────────
@@ -202,7 +232,87 @@ function buildReport(allResults) {
         }
         md += `\n`;
       }
+
+      const failedSeo = metrics.seoChecks.filter(c => c.status === "fail" || c.status === "warn");
+      if (failedSeo.length > 0) {
+        md += `### SEO Issues\n\n`;
+        for (const check of failedSeo) {
+          md += `- ❌ **${check.label}**\n`;
+        }
+        md += `\n`;
+      }
     }
+  }
+
+  // ── Analysis Summary ──
+  md += `---\n\n`;
+  md += `## Analysis Summary\n\n`;
+
+  const scored = allResults.filter(r => r.metrics.scores.performance > 0);
+  const avgPerf = scored.length
+    ? Math.round(scored.reduce((s, r) => s + r.metrics.scores.performance, 0) / scored.length)
+    : 0;
+
+  const best = [...scored].sort((a, b) => b.metrics.scores.performance - a.metrics.scores.performance)[0];
+  const worst = [...scored].sort((a, b) => a.metrics.scores.performance - b.metrics.scores.performance)[0];
+  const needsWork = scored.filter(r => r.metrics.scores.performance < 50);
+  const passing = scored.filter(r => r.metrics.scores.performance >= 90);
+
+  md += `**Average performance score:** ${scoreEmoji(avgPerf)} ${avgPerf}/100\n\n`;
+  md += `**Best performer:** ${best ? `${best.site.name} (${best.metrics.scores.performance})` : "—"}\n\n`;
+  md += `**Worst performer:** ${worst ? `${worst.site.name} (${worst.metrics.scores.performance})` : "—"}\n\n`;
+
+  if (passing.length > 0) {
+    md += `**Passing (90+):** ${passing.map(r => r.site.name).join(", ")}\n\n`;
+  }
+
+  if (needsWork.length > 0) {
+    md += `### 🔴 Pages needing attention (score < 50)\n\n`;
+    for (const { site, metrics } of needsWork) {
+      md += `- **${site.name}** — Performance: ${metrics.scores.performance}\n`;
+    }
+    md += `\n`;
+  } else {
+    md += `No pages scored below 50. ✅\n\n`;
+  }
+
+  // ── SEO checks summary ──
+  md += `### SEO Checks – All Pages\n\n`;
+  md += `| Check | ${allResults.map(r => r.site.name.replace(/^(EU|UK) – /, "$1 ")).join(" | ")} |\n`;
+  md += `|-------|${allResults.map(() => ":---:").join("|")}|\n`;
+
+  const allCheckIds = allResults[0]?.metrics.seoChecks.map(c => c) || [];
+  for (const check of allCheckIds) {
+    const statusIcon = (s) => s === "pass" ? "✅" : s === "fail" ? "❌" : s === "warn" ? "⚠️" : "—";
+    const cells = allResults.map(r => {
+      const c = r.metrics.seoChecks.find(x => x.id === check.id);
+      return statusIcon(c?.status);
+    });
+    md += `| ${check.label} | ${cells.join(" | ")} |\n`;
+  }
+  md += `\n`;
+
+  // Top recurring opportunities across all sites
+  const oppMap = {};
+  for (const { metrics } of allResults) {
+    for (const opp of metrics.opportunities) {
+      if (!oppMap[opp.title]) oppMap[opp.title] = { count: 0, totalSavings: 0 };
+      oppMap[opp.title].count++;
+      oppMap[opp.title].totalSavings += opp.savings;
+    }
+  }
+  const topOpps = Object.entries(oppMap)
+    .sort((a, b) => b[1].count - a[1].count || b[1].totalSavings - a[1].totalSavings)
+    .slice(0, 5);
+
+  if (topOpps.length > 0) {
+    md += `### Most common optimisation opportunities\n\n`;
+    md += `| Opportunity | Affects | Total Est. Savings |\n`;
+    md += `|-------------|:-------:|-------------------:|\n`;
+    for (const [title, { count, totalSavings }] of topOpps) {
+      md += `| ${title} | ${count}/${SITES.length} pages | ${formatMs(totalSavings)} |\n`;
+    }
+    md += `\n`;
   }
 
   md += `---\n\n`;
