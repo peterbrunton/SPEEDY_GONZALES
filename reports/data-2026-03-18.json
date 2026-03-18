@@ -6,14 +6,34 @@
     },
     "metrics": {
       "scores": {
-        "performance": 0,
-        "accessibility": 0,
-        "bestPractices": 0,
-        "seo": 0
+        "performance": 57,
+        "accessibility": 100,
+        "bestPractices": 54,
+        "seo": 100
       },
-      "vitals": {},
-      "opportunities": [],
-      "fetchTime": null
+      "vitals": {
+        "fcp": 729.7103844002993,
+        "lcp": 1428.026279684607,
+        "tbt": 1020.5000000000023,
+        "cls": 0.0038650551821710747,
+        "si": 6238.62026566039,
+        "tti": 6918.091226526683
+      },
+      "opportunities": [
+        {
+          "title": "Reduce unused CSS",
+          "savings": 80
+        },
+        {
+          "title": "Minify CSS",
+          "savings": 40
+        },
+        {
+          "title": "Initial server response time was short",
+          "savings": 29
+        }
+      ],
+      "fetchTime": "2026-03-18T09:57:41.802Z"
     }
   },
   {
@@ -23,14 +43,34 @@
     },
     "metrics": {
       "scores": {
-        "performance": 0,
-        "accessibility": 0,
-        "bestPractices": 0,
-        "seo": 0
+        "performance": 53,
+        "accessibility": 100,
+        "bestPractices": 54,
+        "seo": 100
       },
-      "vitals": {},
-      "opportunities": [],
-      "fetchTime": null
+      "vitals": {
+        "fcp": 743.6181808041612,
+        "lcp": 1821.0569990295448,
+        "tbt": 1008.0000000000014,
+        "cls": 0.02453386351033022,
+        "si": 5921.167461067387,
+        "tti": 7082.2989244120145
+      },
+      "opportunities": [
+        {
+          "title": "Reduce unused CSS",
+          "savings": 120
+        },
+        {
+          "title": "Minify CSS",
+          "savings": 40
+        },
+        {
+          "title": "Reduce unused JavaScript",
+          "savings": 40
+        }
+      ],
+      "fetchTime": "2026-03-18T09:58:40.574Z"
     }
   },
   {
@@ -40,14 +80,26 @@
     },
     "metrics": {
       "scores": {
-        "performance": 0,
-        "accessibility": 0,
-        "bestPractices": 0,
-        "seo": 0
+        "performance": 35,
+        "accessibility": 100,
+        "bestPractices": 54,
+        "seo": 100
       },
-      "vitals": {},
-      "opportunities": [],
-      "fetchTime": null
+      "vitals": {
+        "fcp": 763.7128373338329,
+        "lcp": 6157.006032025622,
+        "tbt": 1086.9999999999998,
+        "cls": 0.08584403289203507,
+        "si": 5247.603392679424,
+        "tti": 6786.520158674479
+      },
+      "opportunities": [
+        {
+          "title": "Reduce unused JavaScript",
+          "savings": 520
+        }
+      ],
+      "fetchTime": "2026-03-18T09:59:38.659Z"
     }
   },
   {
@@ -57,14 +109,34 @@
     },
     "metrics": {
       "scores": {
-        "performance": 0,
-        "accessibility": 0,
-        "bestPractices": 0,
-        "seo": 0
+        "performance": 28,
+        "accessibility": 100,
+        "bestPractices": 54,
+        "seo": 100
       },
-      "vitals": {},
-      "opportunities": [],
-      "fetchTime": null
+      "vitals": {
+        "fcp": 743.992047196293,
+        "lcp": 6042.049943309725,
+        "tbt": 753.0000000000017,
+        "cls": 0.23590335904951465,
+        "si": 5109.1318099059245,
+        "tti": 6308.761986667725
+      },
+      "opportunities": [
+        {
+          "title": "Reduce unused JavaScript",
+          "savings": 600
+        },
+        {
+          "title": "Minify CSS",
+          "savings": 30
+        },
+        {
+          "title": "Reduce unused CSS",
+          "savings": 30
+        }
+      ],
+      "fetchTime": "2026-03-18T10:00:34.237Z"
     }
   },
   {
@@ -74,14 +146,26 @@
     },
     "metrics": {
       "scores": {
-        "performance": 0,
-        "accessibility": 0,
-        "bestPractices": 0,
-        "seo": 0
+        "performance": 52,
+        "accessibility": 77,
+        "bestPractices": 54,
+        "seo": 92
       },
-      "vitals": {},
-      "opportunities": [],
-      "fetchTime": null
+      "vitals": {
+        "fcp": 1111.7923315534417,
+        "lcp": 1621.0352899201412,
+        "tbt": 1895.9999999999995,
+        "cls": 0.0029084026500890174,
+        "si": 6546.297826061902,
+        "tti": 8812.11769597589
+      },
+      "opportunities": [
+        {
+          "title": "Reduce unused CSS",
+          "savings": 40
+        }
+      ],
+      "fetchTime": "2026-03-18T10:01:25.664Z"
     }
   },
   {
@@ -91,14 +175,34 @@
     },
     "metrics": {
       "scores": {
-        "performance": 0,
-        "accessibility": 0,
-        "bestPractices": 0,
-        "seo": 0
+        "performance": 58,
+        "accessibility": 100,
+        "bestPractices": 92,
+        "seo": 100
       },
-      "vitals": {},
-      "opportunities": [],
-      "fetchTime": null
+      "vitals": {
+        "fcp": 730.2432442136302,
+        "lcp": 1361.004621479369,
+        "tbt": 923.5000000000005,
+        "cls": 0.0038670103159970234,
+        "si": 6232.906916568088,
+        "tti": 6455.331639968371
+      },
+      "opportunities": [
+        {
+          "title": "Reduce unused CSS",
+          "savings": 80
+        },
+        {
+          "title": "Reduce unused JavaScript",
+          "savings": 40
+        },
+        {
+          "title": "Minify CSS",
+          "savings": 40
+        }
+      ],
+      "fetchTime": "2026-03-18T10:02:17.073Z"
     }
   },
   {
@@ -108,14 +212,26 @@
     },
     "metrics": {
       "scores": {
-        "performance": 0,
-        "accessibility": 0,
-        "bestPractices": 0,
-        "seo": 0
+        "performance": 58,
+        "accessibility": 77,
+        "bestPractices": 92,
+        "seo": 61
       },
-      "vitals": {},
-      "opportunities": [],
-      "fetchTime": null
+      "vitals": {
+        "fcp": 770.2122250999206,
+        "lcp": 1721.0055892291175,
+        "tbt": 685.9999999999995,
+        "cls": 0.009678340205248385,
+        "si": 5307.674089306442,
+        "tti": 6504.60302511487
+      },
+      "opportunities": [
+        {
+          "title": "Reduce unused CSS",
+          "savings": 40
+        }
+      ],
+      "fetchTime": "2026-03-18T10:03:09.500Z"
     }
   },
   {
@@ -125,14 +241,30 @@
     },
     "metrics": {
       "scores": {
-        "performance": 0,
-        "accessibility": 0,
-        "bestPractices": 0,
-        "seo": 0
+        "performance": 67,
+        "accessibility": 100,
+        "bestPractices": 92,
+        "seo": 100
       },
-      "vitals": {},
-      "opportunities": [],
-      "fetchTime": null
+      "vitals": {
+        "fcp": 746.1073932930026,
+        "lcp": 1421.018353913551,
+        "tbt": 411.5384675372803,
+        "cls": 0.0736860035450131,
+        "si": 4200.320444227105,
+        "tti": 6493.817209902564
+      },
+      "opportunities": [
+        {
+          "title": "Reduce unused CSS",
+          "savings": 80
+        },
+        {
+          "title": "Reduce unused JavaScript",
+          "savings": 40
+        }
+      ],
+      "fetchTime": "2026-03-18T10:04:08.571Z"
     }
   },
   {
@@ -142,14 +274,26 @@
     },
     "metrics": {
       "scores": {
-        "performance": 0,
-        "accessibility": 0,
-        "bestPractices": 0,
-        "seo": 0
+        "performance": 56,
+        "accessibility": 100,
+        "bestPractices": 96,
+        "seo": 100
       },
-      "vitals": {},
-      "opportunities": [],
-      "fetchTime": null
+      "vitals": {
+        "fcp": 743.8976824401977,
+        "lcp": 1621.0149070955915,
+        "tbt": 965.9999999999989,
+        "cls": 0.021524484200148825,
+        "si": 5588.9580311583995,
+        "tti": 6366.134750956606
+      },
+      "opportunities": [
+        {
+          "title": "Reduce unused CSS",
+          "savings": 40
+        }
+      ],
+      "fetchTime": "2026-03-18T10:04:52.781Z"
     }
   },
   {
@@ -159,14 +303,34 @@
     },
     "metrics": {
       "scores": {
-        "performance": 0,
-        "accessibility": 0,
-        "bestPractices": 0,
-        "seo": 0
+        "performance": 50,
+        "accessibility": 77,
+        "bestPractices": 73,
+        "seo": 92
       },
-      "vitals": {},
-      "opportunities": [],
-      "fetchTime": null
+      "vitals": {
+        "fcp": 725.7103628396924,
+        "lcp": 2358.538675283644,
+        "tbt": 922.9883654282098,
+        "cls": 0.0029084026500890174,
+        "si": 4785.780224037231,
+        "tti": 7074.100317393106
+      },
+      "opportunities": [
+        {
+          "title": "Reduce unused JavaScript",
+          "savings": 520
+        },
+        {
+          "title": "Reduce unused CSS",
+          "savings": 120
+        },
+        {
+          "title": "Minify CSS",
+          "savings": 40
+        }
+      ],
+      "fetchTime": "2026-03-18T10:05:42.493Z"
     }
   }
 ]
