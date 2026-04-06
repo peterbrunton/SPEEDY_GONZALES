@@ -1,0 +1,982 @@
+[
+  {
+    "site": {
+      "name": "EU – Homepage",
+      "url": "https://eu.spotlightoralcare.com/"
+    },
+    "metrics": {
+      "scores": {
+        "performance": 33,
+        "accessibility": 89,
+        "bestPractices": 50,
+        "seo": 92
+      },
+      "vitals": {
+        "fcp": 6301.03825411334,
+        "lcp": 28811.415178037765,
+        "tbt": 1076,
+        "cls": 0.000817,
+        "si": 15438.942986615091,
+        "tti": 31015.094727079515
+      },
+      "opportunities": [
+        {
+          "title": "Reduce unused JavaScript",
+          "savings": 4230
+        },
+        {
+          "title": "Minify CSS",
+          "savings": 300
+        },
+        {
+          "title": "Reduce unused CSS",
+          "savings": 300
+        },
+        {
+          "title": "Initial server response time was short",
+          "savings": 29
+        }
+      ],
+      "seoChecks": [
+        {
+          "id": "document-title",
+          "label": "Title tag",
+          "status": "pass",
+          "description": "The title gives screen reader users an overview of the page, and search engine users rely on it heavily to determine if a page is relevant to their search. [Learn more about document titles](https://dequeuniversity.com/rules/axe/4.11/document-title)."
+        },
+        {
+          "id": "meta-description",
+          "label": "Meta description",
+          "status": "pass",
+          "description": "Meta descriptions may be included in search results to concisely summarize page content. [Learn more about the meta description](https://developer.chrome.com/docs/lighthouse/seo/meta-description/)."
+        },
+        {
+          "id": "canonical",
+          "label": "Canonical tag",
+          "status": "pass",
+          "description": "Canonical links suggest which URL to show in search results. [Learn more about canonical links](https://developer.chrome.com/docs/lighthouse/seo/canonical/)."
+        },
+        {
+          "id": "hreflang",
+          "label": "hreflang",
+          "status": "pass",
+          "description": "hreflang links tell search engines what version of a page they should list in search results for a given language or region. [Learn more about `hreflang`](https://developer.chrome.com/docs/lighthouse/seo/hreflang/)."
+        },
+        {
+          "id": "is-crawlable",
+          "label": "Page is crawlable",
+          "status": "pass",
+          "description": "Search engines are unable to include your pages in search results if they don't have permission to crawl them. [Learn more about crawler directives](https://developer.chrome.com/docs/lighthouse/seo/is-crawlable/)."
+        },
+        {
+          "id": "robots-txt",
+          "label": "robots.txt valid",
+          "status": "pass",
+          "description": "If your robots.txt file is malformed, crawlers may not be able to understand how you want your website to be crawled or indexed. [Learn more about robots.txt](https://developer.chrome.com/docs/lighthouse/seo/invalid-robots-txt/)."
+        },
+        {
+          "id": "crawlable-anchors",
+          "label": "Crawlable links",
+          "status": "pass",
+          "description": "Search engines may use `href` attributes on links to crawl websites. Ensure that the `href` attribute of anchor elements links to an appropriate destination, so more pages of the site can be discovered. [Learn how to make links crawlable](https://support.google.com/webmasters/answer/9112205)"
+        },
+        {
+          "id": "link-text",
+          "label": "Descriptive link text",
+          "status": "pass",
+          "description": "Descriptive link text helps search engines understand your content. [Learn how to make links more accessible](https://developer.chrome.com/docs/lighthouse/seo/link-text/)."
+        },
+        {
+          "id": "tap-targets",
+          "label": "Tap targets (mobile)",
+          "status": "n/a"
+        },
+        {
+          "id": "structured-data",
+          "label": "Structured data",
+          "status": "n/a",
+          "description": "Run the [Structured Data Testing Tool](https://developers.google.com/search/docs/appearance/structured-data/) to validate structured data. [Learn more about Structured Data](https://developer.chrome.com/docs/lighthouse/seo/structured-data/)."
+        }
+      ],
+      "fetchTime": "2026-04-06T08:59:20.018Z"
+    }
+  },
+  {
+    "site": {
+      "name": "EU – All Products",
+      "url": "https://eu.spotlightoralcare.com/collections/all-products"
+    },
+    "metrics": {
+      "scores": {
+        "performance": 36,
+        "accessibility": 89,
+        "bestPractices": 50,
+        "seo": 92
+      },
+      "vitals": {
+        "fcp": 6020.508353511152,
+        "lcp": 28704.02853788831,
+        "tbt": 802.5,
+        "cls": 0.010315000000000001,
+        "si": 14822.956264400818,
+        "tti": 31968.58175168482
+      },
+      "opportunities": [
+        {
+          "title": "Reduce unused JavaScript",
+          "savings": 3150
+        },
+        {
+          "title": "Reduce unused CSS",
+          "savings": 450
+        },
+        {
+          "title": "Initial server response time was short",
+          "savings": 37
+        }
+      ],
+      "seoChecks": [
+        {
+          "id": "document-title",
+          "label": "Title tag",
+          "status": "pass",
+          "description": "The title gives screen reader users an overview of the page, and search engine users rely on it heavily to determine if a page is relevant to their search. [Learn more about document titles](https://dequeuniversity.com/rules/axe/4.11/document-title)."
+        },
+        {
+          "id": "meta-description",
+          "label": "Meta description",
+          "status": "pass",
+          "description": "Meta descriptions may be included in search results to concisely summarize page content. [Learn more about the meta description](https://developer.chrome.com/docs/lighthouse/seo/meta-description/)."
+        },
+        {
+          "id": "canonical",
+          "label": "Canonical tag",
+          "status": "pass",
+          "description": "Canonical links suggest which URL to show in search results. [Learn more about canonical links](https://developer.chrome.com/docs/lighthouse/seo/canonical/)."
+        },
+        {
+          "id": "hreflang",
+          "label": "hreflang",
+          "status": "pass",
+          "description": "hreflang links tell search engines what version of a page they should list in search results for a given language or region. [Learn more about `hreflang`](https://developer.chrome.com/docs/lighthouse/seo/hreflang/)."
+        },
+        {
+          "id": "is-crawlable",
+          "label": "Page is crawlable",
+          "status": "pass",
+          "description": "Search engines are unable to include your pages in search results if they don't have permission to crawl them. [Learn more about crawler directives](https://developer.chrome.com/docs/lighthouse/seo/is-crawlable/)."
+        },
+        {
+          "id": "robots-txt",
+          "label": "robots.txt valid",
+          "status": "pass",
+          "description": "If your robots.txt file is malformed, crawlers may not be able to understand how you want your website to be crawled or indexed. [Learn more about robots.txt](https://developer.chrome.com/docs/lighthouse/seo/invalid-robots-txt/)."
+        },
+        {
+          "id": "crawlable-anchors",
+          "label": "Crawlable links",
+          "status": "pass",
+          "description": "Search engines may use `href` attributes on links to crawl websites. Ensure that the `href` attribute of anchor elements links to an appropriate destination, so more pages of the site can be discovered. [Learn how to make links crawlable](https://support.google.com/webmasters/answer/9112205)"
+        },
+        {
+          "id": "link-text",
+          "label": "Descriptive link text",
+          "status": "pass",
+          "description": "Descriptive link text helps search engines understand your content. [Learn how to make links more accessible](https://developer.chrome.com/docs/lighthouse/seo/link-text/)."
+        },
+        {
+          "id": "tap-targets",
+          "label": "Tap targets (mobile)",
+          "status": "n/a"
+        },
+        {
+          "id": "structured-data",
+          "label": "Structured data",
+          "status": "n/a",
+          "description": "Run the [Structured Data Testing Tool](https://developers.google.com/search/docs/appearance/structured-data/) to validate structured data. [Learn more about Structured Data](https://developer.chrome.com/docs/lighthouse/seo/structured-data/)."
+        }
+      ],
+      "fetchTime": "2026-04-06T09:00:19.073Z"
+    }
+  },
+  {
+    "site": {
+      "name": "EU – Kids",
+      "url": "https://eu.spotlightoralcare.com/collections/kids"
+    },
+    "metrics": {
+      "scores": {
+        "performance": 26,
+        "accessibility": 91,
+        "bestPractices": 50,
+        "seo": 92
+      },
+      "vitals": {
+        "fcp": 3153.616222065106,
+        "lcp": 29285.684206248727,
+        "tbt": 609,
+        "cls": 0.376051,
+        "si": 13242.001315195455,
+        "tti": 32198.468935598503
+      },
+      "opportunities": [
+        {
+          "title": "Reduce unused JavaScript",
+          "savings": 3500
+        },
+        {
+          "title": "Reduce unused CSS",
+          "savings": 450
+        },
+        {
+          "title": "Minify JavaScript",
+          "savings": 300
+        },
+        {
+          "title": "Minify CSS",
+          "savings": 150
+        },
+        {
+          "title": "Initial server response time was short",
+          "savings": 68
+        }
+      ],
+      "seoChecks": [
+        {
+          "id": "document-title",
+          "label": "Title tag",
+          "status": "pass",
+          "description": "The title gives screen reader users an overview of the page, and search engine users rely on it heavily to determine if a page is relevant to their search. [Learn more about document titles](https://dequeuniversity.com/rules/axe/4.11/document-title)."
+        },
+        {
+          "id": "meta-description",
+          "label": "Meta description",
+          "status": "pass",
+          "description": "Meta descriptions may be included in search results to concisely summarize page content. [Learn more about the meta description](https://developer.chrome.com/docs/lighthouse/seo/meta-description/)."
+        },
+        {
+          "id": "canonical",
+          "label": "Canonical tag",
+          "status": "pass",
+          "description": "Canonical links suggest which URL to show in search results. [Learn more about canonical links](https://developer.chrome.com/docs/lighthouse/seo/canonical/)."
+        },
+        {
+          "id": "hreflang",
+          "label": "hreflang",
+          "status": "pass",
+          "description": "hreflang links tell search engines what version of a page they should list in search results for a given language or region. [Learn more about `hreflang`](https://developer.chrome.com/docs/lighthouse/seo/hreflang/)."
+        },
+        {
+          "id": "is-crawlable",
+          "label": "Page is crawlable",
+          "status": "pass",
+          "description": "Search engines are unable to include your pages in search results if they don't have permission to crawl them. [Learn more about crawler directives](https://developer.chrome.com/docs/lighthouse/seo/is-crawlable/)."
+        },
+        {
+          "id": "robots-txt",
+          "label": "robots.txt valid",
+          "status": "pass",
+          "description": "If your robots.txt file is malformed, crawlers may not be able to understand how you want your website to be crawled or indexed. [Learn more about robots.txt](https://developer.chrome.com/docs/lighthouse/seo/invalid-robots-txt/)."
+        },
+        {
+          "id": "crawlable-anchors",
+          "label": "Crawlable links",
+          "status": "pass",
+          "description": "Search engines may use `href` attributes on links to crawl websites. Ensure that the `href` attribute of anchor elements links to an appropriate destination, so more pages of the site can be discovered. [Learn how to make links crawlable](https://support.google.com/webmasters/answer/9112205)"
+        },
+        {
+          "id": "link-text",
+          "label": "Descriptive link text",
+          "status": "pass",
+          "description": "Descriptive link text helps search engines understand your content. [Learn how to make links more accessible](https://developer.chrome.com/docs/lighthouse/seo/link-text/)."
+        },
+        {
+          "id": "tap-targets",
+          "label": "Tap targets (mobile)",
+          "status": "n/a"
+        },
+        {
+          "id": "structured-data",
+          "label": "Structured data",
+          "status": "n/a",
+          "description": "Run the [Structured Data Testing Tool](https://developers.google.com/search/docs/appearance/structured-data/) to validate structured data. [Learn more about Structured Data](https://developer.chrome.com/docs/lighthouse/seo/structured-data/)."
+        }
+      ],
+      "fetchTime": "2026-04-06T09:01:16.053Z"
+    }
+  },
+  {
+    "site": {
+      "name": "EU – Enamel Pro Serum",
+      "url": "https://eu.spotlightoralcare.com/products/enamel-protect-pro-serum"
+    },
+    "metrics": {
+      "scores": {
+        "performance": 42,
+        "accessibility": 87,
+        "bestPractices": 50,
+        "seo": 100
+      },
+      "vitals": {
+        "fcp": 3228.6109691832453,
+        "lcp": 7651.011377527477,
+        "tbt": 372.5,
+        "cls": 0.207362,
+        "si": 10388.901611595544,
+        "tti": 29498.370805674993
+      },
+      "opportunities": [
+        {
+          "title": "Reduce unused CSS",
+          "savings": 150
+        },
+        {
+          "title": "Initial server response time was short",
+          "savings": 66
+        }
+      ],
+      "seoChecks": [
+        {
+          "id": "document-title",
+          "label": "Title tag",
+          "status": "pass",
+          "description": "The title gives screen reader users an overview of the page, and search engine users rely on it heavily to determine if a page is relevant to their search. [Learn more about document titles](https://dequeuniversity.com/rules/axe/4.11/document-title)."
+        },
+        {
+          "id": "meta-description",
+          "label": "Meta description",
+          "status": "pass",
+          "description": "Meta descriptions may be included in search results to concisely summarize page content. [Learn more about the meta description](https://developer.chrome.com/docs/lighthouse/seo/meta-description/)."
+        },
+        {
+          "id": "canonical",
+          "label": "Canonical tag",
+          "status": "pass",
+          "description": "Canonical links suggest which URL to show in search results. [Learn more about canonical links](https://developer.chrome.com/docs/lighthouse/seo/canonical/)."
+        },
+        {
+          "id": "hreflang",
+          "label": "hreflang",
+          "status": "pass",
+          "description": "hreflang links tell search engines what version of a page they should list in search results for a given language or region. [Learn more about `hreflang`](https://developer.chrome.com/docs/lighthouse/seo/hreflang/)."
+        },
+        {
+          "id": "is-crawlable",
+          "label": "Page is crawlable",
+          "status": "pass",
+          "description": "Search engines are unable to include your pages in search results if they don't have permission to crawl them. [Learn more about crawler directives](https://developer.chrome.com/docs/lighthouse/seo/is-crawlable/)."
+        },
+        {
+          "id": "robots-txt",
+          "label": "robots.txt valid",
+          "status": "pass",
+          "description": "If your robots.txt file is malformed, crawlers may not be able to understand how you want your website to be crawled or indexed. [Learn more about robots.txt](https://developer.chrome.com/docs/lighthouse/seo/invalid-robots-txt/)."
+        },
+        {
+          "id": "crawlable-anchors",
+          "label": "Crawlable links",
+          "status": "pass",
+          "description": "Search engines may use `href` attributes on links to crawl websites. Ensure that the `href` attribute of anchor elements links to an appropriate destination, so more pages of the site can be discovered. [Learn how to make links crawlable](https://support.google.com/webmasters/answer/9112205)"
+        },
+        {
+          "id": "link-text",
+          "label": "Descriptive link text",
+          "status": "pass",
+          "description": "Descriptive link text helps search engines understand your content. [Learn how to make links more accessible](https://developer.chrome.com/docs/lighthouse/seo/link-text/)."
+        },
+        {
+          "id": "tap-targets",
+          "label": "Tap targets (mobile)",
+          "status": "n/a"
+        },
+        {
+          "id": "structured-data",
+          "label": "Structured data",
+          "status": "n/a",
+          "description": "Run the [Structured Data Testing Tool](https://developers.google.com/search/docs/appearance/structured-data/) to validate structured data. [Learn more about Structured Data](https://developer.chrome.com/docs/lighthouse/seo/structured-data/)."
+        }
+      ],
+      "fetchTime": "2026-04-06T09:02:03.832Z"
+    }
+  },
+  {
+    "site": {
+      "name": "EU – Sonic Pro",
+      "url": "https://eu.spotlightoralcare.com/pages/sonic-pro"
+    },
+    "metrics": {
+      "scores": {
+        "performance": 41,
+        "accessibility": 88,
+        "bestPractices": 50,
+        "seo": 92
+      },
+      "vitals": {
+        "fcp": 9451.513213345297,
+        "lcp": 31558.25160506999,
+        "tbt": 567,
+        "cls": 0.000817,
+        "si": 17699.338056503966,
+        "tti": 33984.49112485028
+      },
+      "opportunities": [
+        {
+          "title": "Reduce unused JavaScript",
+          "savings": 4050
+        },
+        {
+          "title": "Reduce unused CSS",
+          "savings": 450
+        },
+        {
+          "title": "Minify CSS",
+          "savings": 150
+        }
+      ],
+      "seoChecks": [
+        {
+          "id": "document-title",
+          "label": "Title tag",
+          "status": "pass",
+          "description": "The title gives screen reader users an overview of the page, and search engine users rely on it heavily to determine if a page is relevant to their search. [Learn more about document titles](https://dequeuniversity.com/rules/axe/4.11/document-title)."
+        },
+        {
+          "id": "meta-description",
+          "label": "Meta description",
+          "status": "pass",
+          "description": "Meta descriptions may be included in search results to concisely summarize page content. [Learn more about the meta description](https://developer.chrome.com/docs/lighthouse/seo/meta-description/)."
+        },
+        {
+          "id": "canonical",
+          "label": "Canonical tag",
+          "status": "pass",
+          "description": "Canonical links suggest which URL to show in search results. [Learn more about canonical links](https://developer.chrome.com/docs/lighthouse/seo/canonical/)."
+        },
+        {
+          "id": "hreflang",
+          "label": "hreflang",
+          "status": "pass",
+          "description": "hreflang links tell search engines what version of a page they should list in search results for a given language or region. [Learn more about `hreflang`](https://developer.chrome.com/docs/lighthouse/seo/hreflang/)."
+        },
+        {
+          "id": "is-crawlable",
+          "label": "Page is crawlable",
+          "status": "pass",
+          "description": "Search engines are unable to include your pages in search results if they don't have permission to crawl them. [Learn more about crawler directives](https://developer.chrome.com/docs/lighthouse/seo/is-crawlable/)."
+        },
+        {
+          "id": "robots-txt",
+          "label": "robots.txt valid",
+          "status": "pass",
+          "description": "If your robots.txt file is malformed, crawlers may not be able to understand how you want your website to be crawled or indexed. [Learn more about robots.txt](https://developer.chrome.com/docs/lighthouse/seo/invalid-robots-txt/)."
+        },
+        {
+          "id": "crawlable-anchors",
+          "label": "Crawlable links",
+          "status": "pass",
+          "description": "Search engines may use `href` attributes on links to crawl websites. Ensure that the `href` attribute of anchor elements links to an appropriate destination, so more pages of the site can be discovered. [Learn how to make links crawlable](https://support.google.com/webmasters/answer/9112205)"
+        },
+        {
+          "id": "link-text",
+          "label": "Descriptive link text",
+          "status": "pass",
+          "description": "Descriptive link text helps search engines understand your content. [Learn how to make links more accessible](https://developer.chrome.com/docs/lighthouse/seo/link-text/)."
+        },
+        {
+          "id": "tap-targets",
+          "label": "Tap targets (mobile)",
+          "status": "n/a"
+        },
+        {
+          "id": "structured-data",
+          "label": "Structured data",
+          "status": "n/a",
+          "description": "Run the [Structured Data Testing Tool](https://developers.google.com/search/docs/appearance/structured-data/) to validate structured data. [Learn more about Structured Data](https://developer.chrome.com/docs/lighthouse/seo/structured-data/)."
+        }
+      ],
+      "fetchTime": "2026-04-06T09:02:42.638Z"
+    }
+  },
+  {
+    "site": {
+      "name": "UK – Homepage",
+      "url": "https://uk.spotlightoralcare.com/"
+    },
+    "metrics": {
+      "scores": {
+        "performance": 33,
+        "accessibility": 87,
+        "bestPractices": 92,
+        "seo": 92
+      },
+      "vitals": {
+        "fcp": 3378.720001195973,
+        "lcp": 7051.030124178733,
+        "tbt": 1733,
+        "cls": 0.038348,
+        "si": 20441.03524650764,
+        "tti": 31796.780929219964
+      },
+      "opportunities": [
+        {
+          "title": "Reduce unused CSS",
+          "savings": 300
+        },
+        {
+          "title": "Minify JavaScript",
+          "savings": 150
+        },
+        {
+          "title": "Minify CSS",
+          "savings": 150
+        },
+        {
+          "title": "Initial server response time was short",
+          "savings": 32
+        }
+      ],
+      "seoChecks": [
+        {
+          "id": "document-title",
+          "label": "Title tag",
+          "status": "pass",
+          "description": "The title gives screen reader users an overview of the page, and search engine users rely on it heavily to determine if a page is relevant to their search. [Learn more about document titles](https://dequeuniversity.com/rules/axe/4.11/document-title)."
+        },
+        {
+          "id": "meta-description",
+          "label": "Meta description",
+          "status": "pass",
+          "description": "Meta descriptions may be included in search results to concisely summarize page content. [Learn more about the meta description](https://developer.chrome.com/docs/lighthouse/seo/meta-description/)."
+        },
+        {
+          "id": "canonical",
+          "label": "Canonical tag",
+          "status": "pass",
+          "description": "Canonical links suggest which URL to show in search results. [Learn more about canonical links](https://developer.chrome.com/docs/lighthouse/seo/canonical/)."
+        },
+        {
+          "id": "hreflang",
+          "label": "hreflang",
+          "status": "pass",
+          "description": "hreflang links tell search engines what version of a page they should list in search results for a given language or region. [Learn more about `hreflang`](https://developer.chrome.com/docs/lighthouse/seo/hreflang/)."
+        },
+        {
+          "id": "is-crawlable",
+          "label": "Page is crawlable",
+          "status": "pass",
+          "description": "Search engines are unable to include your pages in search results if they don't have permission to crawl them. [Learn more about crawler directives](https://developer.chrome.com/docs/lighthouse/seo/is-crawlable/)."
+        },
+        {
+          "id": "robots-txt",
+          "label": "robots.txt valid",
+          "status": "pass",
+          "description": "If your robots.txt file is malformed, crawlers may not be able to understand how you want your website to be crawled or indexed. [Learn more about robots.txt](https://developer.chrome.com/docs/lighthouse/seo/invalid-robots-txt/)."
+        },
+        {
+          "id": "crawlable-anchors",
+          "label": "Crawlable links",
+          "status": "pass",
+          "description": "Search engines may use `href` attributes on links to crawl websites. Ensure that the `href` attribute of anchor elements links to an appropriate destination, so more pages of the site can be discovered. [Learn how to make links crawlable](https://support.google.com/webmasters/answer/9112205)"
+        },
+        {
+          "id": "link-text",
+          "label": "Descriptive link text",
+          "status": "pass",
+          "description": "Descriptive link text helps search engines understand your content. [Learn how to make links more accessible](https://developer.chrome.com/docs/lighthouse/seo/link-text/)."
+        },
+        {
+          "id": "tap-targets",
+          "label": "Tap targets (mobile)",
+          "status": "n/a"
+        },
+        {
+          "id": "structured-data",
+          "label": "Structured data",
+          "status": "n/a",
+          "description": "Run the [Structured Data Testing Tool](https://developers.google.com/search/docs/appearance/structured-data/) to validate structured data. [Learn more about Structured Data](https://developer.chrome.com/docs/lighthouse/seo/structured-data/)."
+        }
+      ],
+      "fetchTime": "2026-04-06T09:03:29.370Z"
+    }
+  },
+  {
+    "site": {
+      "name": "UK – All Products",
+      "url": "https://uk.spotlightoralcare.com/collections/all-products"
+    },
+    "metrics": {
+      "scores": {
+        "performance": 55,
+        "accessibility": 89,
+        "bestPractices": 92,
+        "seo": 61
+      },
+      "vitals": {
+        "fcp": 6151.013099824166,
+        "lcp": 23685.632406756657,
+        "tbt": 113,
+        "cls": 0.011588999999999999,
+        "si": 13974.385646210918,
+        "tti": 31182.79249045533
+      },
+      "opportunities": [
+        {
+          "title": "Reduce unused JavaScript",
+          "savings": 1810
+        },
+        {
+          "title": "Reduce unused CSS",
+          "savings": 450
+        },
+        {
+          "title": "Minify CSS",
+          "savings": 150
+        }
+      ],
+      "seoChecks": [
+        {
+          "id": "document-title",
+          "label": "Title tag",
+          "status": "pass",
+          "description": "The title gives screen reader users an overview of the page, and search engine users rely on it heavily to determine if a page is relevant to their search. [Learn more about document titles](https://dequeuniversity.com/rules/axe/4.11/document-title)."
+        },
+        {
+          "id": "meta-description",
+          "label": "Meta description",
+          "status": "pass",
+          "description": "Meta descriptions may be included in search results to concisely summarize page content. [Learn more about the meta description](https://developer.chrome.com/docs/lighthouse/seo/meta-description/)."
+        },
+        {
+          "id": "canonical",
+          "label": "Canonical tag",
+          "status": "pass",
+          "description": "Canonical links suggest which URL to show in search results. [Learn more about canonical links](https://developer.chrome.com/docs/lighthouse/seo/canonical/)."
+        },
+        {
+          "id": "hreflang",
+          "label": "hreflang",
+          "status": "pass",
+          "description": "hreflang links tell search engines what version of a page they should list in search results for a given language or region. [Learn more about `hreflang`](https://developer.chrome.com/docs/lighthouse/seo/hreflang/)."
+        },
+        {
+          "id": "is-crawlable",
+          "label": "Page is crawlable",
+          "status": "fail",
+          "description": "Search engines are unable to include your pages in search results if they don't have permission to crawl them. [Learn more about crawler directives](https://developer.chrome.com/docs/lighthouse/seo/is-crawlable/)."
+        },
+        {
+          "id": "robots-txt",
+          "label": "robots.txt valid",
+          "status": "pass",
+          "description": "If your robots.txt file is malformed, crawlers may not be able to understand how you want your website to be crawled or indexed. [Learn more about robots.txt](https://developer.chrome.com/docs/lighthouse/seo/invalid-robots-txt/)."
+        },
+        {
+          "id": "crawlable-anchors",
+          "label": "Crawlable links",
+          "status": "pass",
+          "description": "Search engines may use `href` attributes on links to crawl websites. Ensure that the `href` attribute of anchor elements links to an appropriate destination, so more pages of the site can be discovered. [Learn how to make links crawlable](https://support.google.com/webmasters/answer/9112205)"
+        },
+        {
+          "id": "link-text",
+          "label": "Descriptive link text",
+          "status": "pass",
+          "description": "Descriptive link text helps search engines understand your content. [Learn how to make links more accessible](https://developer.chrome.com/docs/lighthouse/seo/link-text/)."
+        },
+        {
+          "id": "tap-targets",
+          "label": "Tap targets (mobile)",
+          "status": "n/a"
+        },
+        {
+          "id": "structured-data",
+          "label": "Structured data",
+          "status": "n/a",
+          "description": "Run the [Structured Data Testing Tool](https://developers.google.com/search/docs/appearance/structured-data/) to validate structured data. [Learn more about Structured Data](https://developer.chrome.com/docs/lighthouse/seo/structured-data/)."
+        }
+      ],
+      "fetchTime": "2026-04-06T09:04:40.553Z"
+    }
+  },
+  {
+    "site": {
+      "name": "UK – Kids",
+      "url": "https://uk.spotlightoralcare.com/collections/kids"
+    },
+    "metrics": {
+      "scores": {
+        "performance": 44,
+        "accessibility": 92,
+        "bestPractices": 92,
+        "seo": 92
+      },
+      "vitals": {
+        "fcp": 3229.8560251730732,
+        "lcp": 6901.01339429122,
+        "tbt": 656.5,
+        "cls": 0.053836,
+        "si": 11811.320434661426,
+        "tti": 31346.444241820915
+      },
+      "opportunities": [
+        {
+          "title": "Reduce unused CSS",
+          "savings": 450
+        },
+        {
+          "title": "Minify CSS",
+          "savings": 150
+        }
+      ],
+      "seoChecks": [
+        {
+          "id": "document-title",
+          "label": "Title tag",
+          "status": "pass",
+          "description": "The title gives screen reader users an overview of the page, and search engine users rely on it heavily to determine if a page is relevant to their search. [Learn more about document titles](https://dequeuniversity.com/rules/axe/4.11/document-title)."
+        },
+        {
+          "id": "meta-description",
+          "label": "Meta description",
+          "status": "pass",
+          "description": "Meta descriptions may be included in search results to concisely summarize page content. [Learn more about the meta description](https://developer.chrome.com/docs/lighthouse/seo/meta-description/)."
+        },
+        {
+          "id": "canonical",
+          "label": "Canonical tag",
+          "status": "pass",
+          "description": "Canonical links suggest which URL to show in search results. [Learn more about canonical links](https://developer.chrome.com/docs/lighthouse/seo/canonical/)."
+        },
+        {
+          "id": "hreflang",
+          "label": "hreflang",
+          "status": "pass",
+          "description": "hreflang links tell search engines what version of a page they should list in search results for a given language or region. [Learn more about `hreflang`](https://developer.chrome.com/docs/lighthouse/seo/hreflang/)."
+        },
+        {
+          "id": "is-crawlable",
+          "label": "Page is crawlable",
+          "status": "pass",
+          "description": "Search engines are unable to include your pages in search results if they don't have permission to crawl them. [Learn more about crawler directives](https://developer.chrome.com/docs/lighthouse/seo/is-crawlable/)."
+        },
+        {
+          "id": "robots-txt",
+          "label": "robots.txt valid",
+          "status": "pass",
+          "description": "If your robots.txt file is malformed, crawlers may not be able to understand how you want your website to be crawled or indexed. [Learn more about robots.txt](https://developer.chrome.com/docs/lighthouse/seo/invalid-robots-txt/)."
+        },
+        {
+          "id": "crawlable-anchors",
+          "label": "Crawlable links",
+          "status": "pass",
+          "description": "Search engines may use `href` attributes on links to crawl websites. Ensure that the `href` attribute of anchor elements links to an appropriate destination, so more pages of the site can be discovered. [Learn how to make links crawlable](https://support.google.com/webmasters/answer/9112205)"
+        },
+        {
+          "id": "link-text",
+          "label": "Descriptive link text",
+          "status": "pass",
+          "description": "Descriptive link text helps search engines understand your content. [Learn how to make links more accessible](https://developer.chrome.com/docs/lighthouse/seo/link-text/)."
+        },
+        {
+          "id": "tap-targets",
+          "label": "Tap targets (mobile)",
+          "status": "n/a"
+        },
+        {
+          "id": "structured-data",
+          "label": "Structured data",
+          "status": "n/a",
+          "description": "Run the [Structured Data Testing Tool](https://developers.google.com/search/docs/appearance/structured-data/) to validate structured data. [Learn more about Structured Data](https://developer.chrome.com/docs/lighthouse/seo/structured-data/)."
+        }
+      ],
+      "fetchTime": "2026-04-06T09:05:13.654Z"
+    }
+  },
+  {
+    "site": {
+      "name": "UK – Enamel Pro Serum",
+      "url": "https://uk.spotlightoralcare.com/products/enamel-protect-pro-serum"
+    },
+    "metrics": {
+      "scores": {
+        "performance": 44,
+        "accessibility": 87,
+        "bestPractices": 92,
+        "seo": 100
+      },
+      "vitals": {
+        "fcp": 3228.8547588418423,
+        "lcp": 8551.01004276922,
+        "tbt": 415,
+        "cls": 0.145527,
+        "si": 11928.663528359137,
+        "tti": 32384.97224309655
+      },
+      "opportunities": [
+        {
+          "title": "Reduce unused CSS",
+          "savings": 600
+        },
+        {
+          "title": "Minify CSS",
+          "savings": 300
+        }
+      ],
+      "seoChecks": [
+        {
+          "id": "document-title",
+          "label": "Title tag",
+          "status": "pass",
+          "description": "The title gives screen reader users an overview of the page, and search engine users rely on it heavily to determine if a page is relevant to their search. [Learn more about document titles](https://dequeuniversity.com/rules/axe/4.11/document-title)."
+        },
+        {
+          "id": "meta-description",
+          "label": "Meta description",
+          "status": "pass",
+          "description": "Meta descriptions may be included in search results to concisely summarize page content. [Learn more about the meta description](https://developer.chrome.com/docs/lighthouse/seo/meta-description/)."
+        },
+        {
+          "id": "canonical",
+          "label": "Canonical tag",
+          "status": "pass",
+          "description": "Canonical links suggest which URL to show in search results. [Learn more about canonical links](https://developer.chrome.com/docs/lighthouse/seo/canonical/)."
+        },
+        {
+          "id": "hreflang",
+          "label": "hreflang",
+          "status": "pass",
+          "description": "hreflang links tell search engines what version of a page they should list in search results for a given language or region. [Learn more about `hreflang`](https://developer.chrome.com/docs/lighthouse/seo/hreflang/)."
+        },
+        {
+          "id": "is-crawlable",
+          "label": "Page is crawlable",
+          "status": "pass",
+          "description": "Search engines are unable to include your pages in search results if they don't have permission to crawl them. [Learn more about crawler directives](https://developer.chrome.com/docs/lighthouse/seo/is-crawlable/)."
+        },
+        {
+          "id": "robots-txt",
+          "label": "robots.txt valid",
+          "status": "pass",
+          "description": "If your robots.txt file is malformed, crawlers may not be able to understand how you want your website to be crawled or indexed. [Learn more about robots.txt](https://developer.chrome.com/docs/lighthouse/seo/invalid-robots-txt/)."
+        },
+        {
+          "id": "crawlable-anchors",
+          "label": "Crawlable links",
+          "status": "pass",
+          "description": "Search engines may use `href` attributes on links to crawl websites. Ensure that the `href` attribute of anchor elements links to an appropriate destination, so more pages of the site can be discovered. [Learn how to make links crawlable](https://support.google.com/webmasters/answer/9112205)"
+        },
+        {
+          "id": "link-text",
+          "label": "Descriptive link text",
+          "status": "pass",
+          "description": "Descriptive link text helps search engines understand your content. [Learn how to make links more accessible](https://developer.chrome.com/docs/lighthouse/seo/link-text/)."
+        },
+        {
+          "id": "tap-targets",
+          "label": "Tap targets (mobile)",
+          "status": "n/a"
+        },
+        {
+          "id": "structured-data",
+          "label": "Structured data",
+          "status": "n/a",
+          "description": "Run the [Structured Data Testing Tool](https://developers.google.com/search/docs/appearance/structured-data/) to validate structured data. [Learn more about Structured Data](https://developer.chrome.com/docs/lighthouse/seo/structured-data/)."
+        }
+      ],
+      "fetchTime": "2026-04-06T09:05:56.122Z"
+    }
+  },
+  {
+    "site": {
+      "name": "UK – Sonic Pro",
+      "url": "https://uk.spotlightoralcare.com/pages/sonic-pro"
+    },
+    "metrics": {
+      "scores": {
+        "performance": 36,
+        "accessibility": 85,
+        "bestPractices": 54,
+        "seo": 92
+      },
+      "vitals": {
+        "fcp": 3303.36515164047,
+        "lcp": 7589.523632123743,
+        "tbt": 1232.9999999999927,
+        "cls": 0.008396,
+        "si": 15927.760678679517,
+        "tti": 36297.52551131887
+      },
+      "opportunities": [
+        {
+          "title": "Reduce unused CSS",
+          "savings": 450
+        },
+        {
+          "title": "Minify CSS",
+          "savings": 150
+        }
+      ],
+      "seoChecks": [
+        {
+          "id": "document-title",
+          "label": "Title tag",
+          "status": "pass",
+          "description": "The title gives screen reader users an overview of the page, and search engine users rely on it heavily to determine if a page is relevant to their search. [Learn more about document titles](https://dequeuniversity.com/rules/axe/4.11/document-title)."
+        },
+        {
+          "id": "meta-description",
+          "label": "Meta description",
+          "status": "pass",
+          "description": "Meta descriptions may be included in search results to concisely summarize page content. [Learn more about the meta description](https://developer.chrome.com/docs/lighthouse/seo/meta-description/)."
+        },
+        {
+          "id": "canonical",
+          "label": "Canonical tag",
+          "status": "pass",
+          "description": "Canonical links suggest which URL to show in search results. [Learn more about canonical links](https://developer.chrome.com/docs/lighthouse/seo/canonical/)."
+        },
+        {
+          "id": "hreflang",
+          "label": "hreflang",
+          "status": "pass",
+          "description": "hreflang links tell search engines what version of a page they should list in search results for a given language or region. [Learn more about `hreflang`](https://developer.chrome.com/docs/lighthouse/seo/hreflang/)."
+        },
+        {
+          "id": "is-crawlable",
+          "label": "Page is crawlable",
+          "status": "pass",
+          "description": "Search engines are unable to include your pages in search results if they don't have permission to crawl them. [Learn more about crawler directives](https://developer.chrome.com/docs/lighthouse/seo/is-crawlable/)."
+        },
+        {
+          "id": "robots-txt",
+          "label": "robots.txt valid",
+          "status": "pass",
+          "description": "If your robots.txt file is malformed, crawlers may not be able to understand how you want your website to be crawled or indexed. [Learn more about robots.txt](https://developer.chrome.com/docs/lighthouse/seo/invalid-robots-txt/)."
+        },
+        {
+          "id": "crawlable-anchors",
+          "label": "Crawlable links",
+          "status": "pass",
+          "description": "Search engines may use `href` attributes on links to crawl websites. Ensure that the `href` attribute of anchor elements links to an appropriate destination, so more pages of the site can be discovered. [Learn how to make links crawlable](https://support.google.com/webmasters/answer/9112205)"
+        },
+        {
+          "id": "link-text",
+          "label": "Descriptive link text",
+          "status": "pass",
+          "description": "Descriptive link text helps search engines understand your content. [Learn how to make links more accessible](https://developer.chrome.com/docs/lighthouse/seo/link-text/)."
+        },
+        {
+          "id": "tap-targets",
+          "label": "Tap targets (mobile)",
+          "status": "n/a"
+        },
+        {
+          "id": "structured-data",
+          "label": "Structured data",
+          "status": "n/a",
+          "description": "Run the [Structured Data Testing Tool](https://developers.google.com/search/docs/appearance/structured-data/) to validate structured data. [Learn more about Structured Data](https://developer.chrome.com/docs/lighthouse/seo/structured-data/)."
+        }
+      ],
+      "fetchTime": "2026-04-06T09:06:32.982Z"
+    }
+  }
+]
