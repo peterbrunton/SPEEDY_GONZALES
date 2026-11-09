@@ -1,6 +1,6 @@
 # 🚀 Weekly PageSpeed Report
 
-**Date:** Monday, 2 November 2026  
+**Date:** Monday, 9 November 2026  
 **Strategy:** mobile  
 **Sites tested:** 10
 
@@ -11,37 +11,37 @@
 | Page | Perf | A11y | Best Practices | SEO |
 |------|:----:|:----:|:--------------:|:---:|
 | **EU Store** | | | | |
-|   Homepage | 🟠 56 | 🟢 93 | 🟠 69 | 🟢 92 |
-|   All Products | 🔴 38 | 🟢 92 | 🟠 69 | 🟢 92 |
-|   Kids | 🔴 38 | 🟢 91 | 🟠 69 | 🟢 92 |
-|   Enamel Pro Serum | 🔴 40 | 🟠 84 | 🟠 69 | 🟢 100 |
-|   Sonic Pro | 🔴 35 | 🟠 89 | 🟠 50 | 🟢 92 |
+|   Homepage | 🔴 49 | 🟢 93 | 🟠 69 | 🟢 92 |
+|   All Products | 🔴 36 | 🟢 92 | 🟠 69 | 🟢 92 |
+|   Kids | 🔴 33 | 🟢 91 | 🟠 69 | 🟢 92 |
+|   Enamel Pro Serum | 🔴 49 | 🟠 81 | 🟠 69 | 🟢 100 |
+|   Sonic Pro | 🔴 44 | 🟠 89 | 🟠 50 | 🟢 92 |
 | **UK Store** | | | | |
-|   Homepage | 🟠 64 | 🟢 93 | 🟢 92 | 🟢 92 |
-|   All Products | 🟠 72 | 🟢 92 | 🟢 92 | 🟢 92 |
-|   Kids | 🟠 66 | 🟢 92 | 🟢 92 | 🟢 92 |
-|   Enamel Pro Serum | 🟠 51 | 🟠 87 | 🟢 92 | 🟢 100 |
-|   Sonic Pro | 🟠 66 | 🟠 89 | 🟠 50 | 🟢 92 |
+|   Homepage | 🟠 56 | 🟢 93 | 🟢 92 | 🟢 92 |
+|   All Products | 🔴 45 | 🟢 92 | 🟢 92 | 🟢 92 |
+|   Kids | 🟠 70 | 🟢 92 | 🟢 92 | 🟢 92 |
+|   Enamel Pro Serum | 🔴 48 | 🟠 84 | 🟢 92 | 🟢 100 |
+|   Sonic Pro | 🔴 48 | 🟠 89 | 🟠 50 | 🟢 92 |
 
 ## EU Store – Core Web Vitals
 
 | Page | FCP | LCP | TBT | CLS | Speed Index | TTI |
 |------|-----|-----|-----|-----|-------------|-----|
-| Homepage | 2.2s | 22.7s | 355ms | 0.043 | 9.2s | 23.0s |
-| All Products | 1.4s | 22.0s | 1.8s | 0.046 | 12.3s | 22.9s |
-| Kids | 1.4s | 21.1s | 675ms | 0.231 | 9.7s | 23.1s |
-| Enamel Pro Serum | 1.2s | 7.6s | 566ms | 0.268 | 8.0s | 20.2s |
-| Sonic Pro | 1.3s | 24.2s | 2.7s | 0.043 | 18.8s | 30.7s |
+| Homepage | 1.5s | 19.5s | 647ms | 0.046 | 10.7s | 21.2s |
+| All Products | 1.5s | 20.1s | 2.1s | 0.053 | 12.8s | 21.6s |
+| Kids | 1.5s | 19.0s | 1.3s | 0.169 | 11.3s | 22.5s |
+| Enamel Pro Serum | 1.5s | 7.6s | 758ms | 0.044 | 8.5s | 20.4s |
+| Sonic Pro | 1.3s | 26.6s | 913ms | 0.043 | 12.8s | 29.3s |
 
 ## UK Store – Core Web Vitals
 
 | Page | FCP | LCP | TBT | CLS | Speed Index | TTI |
 |------|-----|-----|-----|-----|-------------|-----|
-| Homepage | 1.4s | 5.9s | 263ms | 0.046 | 9.2s | 20.5s |
-| All Products | 1.4s | 3.9s | 312ms | 0.054 | 9.4s | 19.4s |
-| Kids | 1.4s | 6.2s | 139ms | 0.083 | 9.0s | 20.4s |
-| Enamel Pro Serum | 1.3s | 4.9s | 331ms | 0.301 | 9.4s | 21.7s |
-| Sonic Pro | 1.2s | 5.5s | 225ms | 0.043 | 12.9s | 24.5s |
+| Homepage | 1.5s | 5.8s | 529ms | 0.043 | 9.0s | 21.7s |
+| All Products | 1.6s | 5.5s | 1.4s | 0.043 | 11.1s | 19.8s |
+| Kids | 1.4s | 4.9s | 185ms | 0.074 | 8.9s | 20.2s |
+| Enamel Pro Serum | 1.4s | 6.9s | 172ms | 0.330 | 9.9s | 20.7s |
+| Sonic Pro | 1.4s | 5.0s | 1.2s | 0.043 | 10.7s | 27.8s |
 
 ---
 
@@ -50,11 +50,11 @@
 ## Homepage
 
 **URL:** https://eu.spotlightoralcare.com/  
-**Tested:** 11/2/2026, 5:29:53 PM
+**Tested:** 11/9/2026, 5:53:23 PM
 
 | Category | Score |
 |----------|:-----:|
-| Performance | 🟠 56 |
+| Performance | 🔴 49 |
 | Accessibility | 🟢 93 |
 | Best Practices | 🟠 69 |
 | SEO | 🟢 92 |
@@ -63,18 +63,17 @@
 
 | Opportunity | Est. Savings |
 |-------------|-------------:|
-| Reduce unused JavaScript | 3.1s |
-| Reduce unused CSS | 450ms |
-| Minify JavaScript | 150ms |
+| Reduce unused JavaScript | 2.0s |
+| Reduce unused CSS | 300ms |
 
 ## All Products
 
 **URL:** https://eu.spotlightoralcare.com/collections/all-products  
-**Tested:** 11/2/2026, 5:30:29 PM
+**Tested:** 11/9/2026, 5:54:05 PM
 
 | Category | Score |
 |----------|:-----:|
-| Performance | 🔴 38 |
+| Performance | 🔴 36 |
 | Accessibility | 🟢 92 |
 | Best Practices | 🟠 69 |
 | SEO | 🟢 92 |
@@ -83,18 +82,17 @@
 
 | Opportunity | Est. Savings |
 |-------------|-------------:|
-| Reduce unused JavaScript | 2.5s |
-| Reduce unused CSS | 310ms |
-| Minify JavaScript | 150ms |
+| Reduce unused JavaScript | 2.7s |
+| Reduce unused CSS | 450ms |
 
 ## Kids
 
 **URL:** https://eu.spotlightoralcare.com/collections/kids  
-**Tested:** 11/2/2026, 5:31:18 PM
+**Tested:** 11/9/2026, 5:55:03 PM
 
 | Category | Score |
 |----------|:-----:|
-| Performance | 🔴 38 |
+| Performance | 🔴 33 |
 | Accessibility | 🟢 91 |
 | Best Practices | 🟠 69 |
 | SEO | 🟢 92 |
@@ -103,18 +101,18 @@
 
 | Opportunity | Est. Savings |
 |-------------|-------------:|
-| Reduce unused JavaScript | 2.5s |
-| Reduce unused CSS | 350ms |
+| Reduce unused JavaScript | 1.7s |
+| Reduce unused CSS | 300ms |
 
 ## Enamel Pro Serum
 
 **URL:** https://eu.spotlightoralcare.com/products/enamel-protect-pro-serum  
-**Tested:** 11/2/2026, 5:31:59 PM
+**Tested:** 11/9/2026, 5:55:58 PM
 
 | Category | Score |
 |----------|:-----:|
-| Performance | 🔴 40 |
-| Accessibility | 🟠 84 |
+| Performance | 🔴 49 |
+| Accessibility | 🟠 81 |
 | Best Practices | 🟠 69 |
 | SEO | 🟢 100 |
 
@@ -127,11 +125,11 @@
 ## Sonic Pro
 
 **URL:** https://eu.spotlightoralcare.com/pages/sonic-pro  
-**Tested:** 11/2/2026, 5:32:37 PM
+**Tested:** 11/9/2026, 5:56:38 PM
 
 | Category | Score |
 |----------|:-----:|
-| Performance | 🔴 35 |
+| Performance | 🔴 44 |
 | Accessibility | 🟠 89 |
 | Best Practices | 🟠 50 |
 | SEO | 🟢 92 |
@@ -140,9 +138,8 @@
 
 | Opportunity | Est. Savings |
 |-------------|-------------:|
-| Reduce unused JavaScript | 8.5s |
-| Reduce unused CSS | 850ms |
-| Initial server response time was short | 234ms |
+| Reduce unused JavaScript | 8.0s |
+| Reduce unused CSS | 510ms |
 
 ---
 
@@ -151,11 +148,11 @@
 ## Homepage
 
 **URL:** https://uk.spotlightoralcare.com/  
-**Tested:** 11/2/2026, 5:33:40 PM
+**Tested:** 11/9/2026, 5:57:18 PM
 
 | Category | Score |
 |----------|:-----:|
-| Performance | 🟠 64 |
+| Performance | 🟠 56 |
 | Accessibility | 🟢 93 |
 | Best Practices | 🟢 92 |
 | SEO | 🟢 92 |
@@ -169,11 +166,11 @@
 ## All Products
 
 **URL:** https://uk.spotlightoralcare.com/collections/all-products  
-**Tested:** 11/2/2026, 5:34:11 PM
+**Tested:** 11/9/2026, 5:58:05 PM
 
 | Category | Score |
 |----------|:-----:|
-| Performance | 🟠 72 |
+| Performance | 🔴 45 |
 | Accessibility | 🟢 92 |
 | Best Practices | 🟢 92 |
 | SEO | 🟢 92 |
@@ -182,18 +179,55 @@
 
 | Opportunity | Est. Savings |
 |-------------|-------------:|
-| Reduce unused CSS | 150ms |
+| Reduce unused CSS | 300ms |
 
 ## Kids
 
 **URL:** https://uk.spotlightoralcare.com/collections/kids  
-**Tested:** 11/2/2026, 5:34:49 PM
+**Tested:** 11/9/2026, 5:58:52 PM
 
 | Category | Score |
 |----------|:-----:|
-| Performance | 🟠 66 |
+| Performance | 🟠 70 |
 | Accessibility | 🟢 92 |
 | Best Practices | 🟢 92 |
+| SEO | 🟢 92 |
+
+### Top Opportunities
+
+| Opportunity | Est. Savings |
+|-------------|-------------:|
+| Reduce unused CSS | 300ms |
+
+## Enamel Pro Serum
+
+**URL:** https://uk.spotlightoralcare.com/products/enamel-protect-pro-serum  
+**Tested:** 11/9/2026, 5:59:22 PM
+
+| Category | Score |
+|----------|:-----:|
+| Performance | 🔴 48 |
+| Accessibility | 🟠 84 |
+| Best Practices | 🟢 92 |
+| SEO | 🟢 100 |
+
+### Top Opportunities
+
+| Opportunity | Est. Savings |
+|-------------|-------------:|
+| Reduce unused CSS | 300ms |
+| Minify CSS | 150ms |
+
+## Sonic Pro
+
+**URL:** https://uk.spotlightoralcare.com/pages/sonic-pro  
+**Tested:** 11/9/2026, 5:59:50 PM
+
+| Category | Score |
+|----------|:-----:|
+| Performance | 🔴 48 |
+| Accessibility | 🟠 89 |
+| Best Practices | 🟠 50 |
 | SEO | 🟢 92 |
 
 ### Top Opportunities
@@ -204,58 +238,26 @@
 | Minify JavaScript | 150ms |
 | Minify CSS | 150ms |
 
-## Enamel Pro Serum
-
-**URL:** https://uk.spotlightoralcare.com/products/enamel-protect-pro-serum  
-**Tested:** 11/2/2026, 5:35:16 PM
-
-| Category | Score |
-|----------|:-----:|
-| Performance | 🟠 51 |
-| Accessibility | 🟠 87 |
-| Best Practices | 🟢 92 |
-| SEO | 🟢 100 |
-
-### Top Opportunities
-
-| Opportunity | Est. Savings |
-|-------------|-------------:|
-| Reduce unused CSS | 150ms |
-
-## Sonic Pro
-
-**URL:** https://uk.spotlightoralcare.com/pages/sonic-pro  
-**Tested:** 11/2/2026, 5:35:49 PM
-
-| Category | Score |
-|----------|:-----:|
-| Performance | 🟠 66 |
-| Accessibility | 🟠 89 |
-| Best Practices | 🟠 50 |
-| SEO | 🟢 92 |
-
-### Top Opportunities
-
-| Opportunity | Est. Savings |
-|-------------|-------------:|
-| Reduce unused CSS | 300ms |
-
 ---
 
 ## Analysis Summary
 
-**Average performance score:** 🟠 53/100
+**Average performance score:** 🔴 48/100
 
-**Best performer:** UK – All Products (72)
+**Best performer:** UK – Kids (70)
 
-**Worst performer:** EU – Sonic Pro (35)
+**Worst performer:** EU – Kids (33)
 
 ### 🔴 Pages needing attention (score < 50)
 
-- **EU – All Products** — Performance: 38
-- **EU – Kids** — Performance: 38
-- **EU – Enamel Pro Serum** — Performance: 40
-- **EU – Sonic Pro** — Performance: 35
+- **EU – Homepage** — Performance: 49
+- **EU – All Products** — Performance: 36
+- **EU – Kids** — Performance: 33
+- **EU – Enamel Pro Serum** — Performance: 49
+- **EU – Sonic Pro** — Performance: 44
+- **UK – All Products** — Performance: 45
+- **UK – Enamel Pro Serum** — Performance: 48
+- **UK – Sonic Pro** — Performance: 48
 
 ### SEO Checks – All Pages
 
@@ -276,11 +278,10 @@
 
 | Opportunity | Affects | Total Est. Savings |
 |-------------|:-------:|-------------------:|
-| Reduce unused CSS | 10/10 pages | 3.3s |
-| Reduce unused JavaScript | 4/10 pages | 16.7s |
-| Minify JavaScript | 3/10 pages | 450ms |
-| Initial server response time was short | 1/10 pages | 234ms |
-| Minify CSS | 1/10 pages | 150ms |
+| Reduce unused CSS | 10/10 pages | 3.2s |
+| Reduce unused JavaScript | 4/10 pages | 14.4s |
+| Minify CSS | 2/10 pages | 300ms |
+| Minify JavaScript | 1/10 pages | 150ms |
 
 ---
 
